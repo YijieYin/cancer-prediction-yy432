@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cancer-prediction-yy432"
+version = "0.1.0"
+description = "A package to detect cancer - packaging course practice"
+authors = ["YijieYin <37304606+YijieYin@users.noreply.github.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+streamlit = "^1.40.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
