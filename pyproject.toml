@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cancer-prediction-yy432"
-version = "0.1.0"
+version = "0.1.2"
 description = "A package to detect cancer - packaging course practice"
 authors = ["YijieYin <37304606+YijieYin@users.noreply.github.com>"]
 license = "GPL-3.0-or-later"
