@@ -1,7 +1,5 @@
 import os
-import pickle
 
-import numpy as np
 import pandas as pd
 import streamlit as st
 
@@ -51,7 +49,8 @@ app_mode = st.sidebar.selectbox(
 
 if app_mode == "Home":
     st.write(
-        "Welcome to the Cancer Diagnosis Prediction Application. Use the sidebar to navigate through the application."
+        "Welcome to the Cancer Diagnosis Prediction Application. "
+        "Use the sidebar to navigate through the application."
     )
 
 elif app_mode == "Train a new model":
